@@ -12,7 +12,7 @@
 
 ### Example
 ```rust
-#[derive(Env. PartialEq)]
+#[derive(Env, PartialEq)]
 #[env(prefix = "FOO")]
 struct Config {
 
